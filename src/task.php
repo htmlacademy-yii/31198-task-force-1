@@ -1,19 +1,19 @@
 namespace taskforse;
 
 class Task {
-	public STATUS_NEW = 'new';
-	public STATUS_PERFORM = 'performed';
-	public STATUS_DONE = 'done';
-	public STATUS_CANCEL = 'canceled';
-	public STATUS_FAIL = 'failed';
+	public const STATUS_NEW = 'new';
+	public const STATUS_PERFORM = 'performed';
+	public const STATUS_DONE = 'done';
+	public const STATUS_CANCEL = 'canceled';
+	public const STATUS_FAIL = 'failed';
 
-	public ACTION_CREATE = 'create';
-	public ACTION_CANCEL = 'cancel';
-	public ACTION_RESPOND = 'respond';
-	public ACTION_ESTIMATE = 'estimate';
+	public const ACTION_CREATE = 'create';
+	public const ACTION_CANCEL = 'cancel';
+	public const ACTION_RESPOND = 'respond';
+	public const ACTION_ESTIMATE = 'estimate';
 
-	public ROLE_CUSTOMER = 'customer';
-	public ROLE_PERFORMER = 'performer';
+	public const ROLE_CUSTOMER = 'customer';
+	public const ROLE_PERFORMER = 'performer';
 
 	public static function TaskStatusList() {
 		return [
