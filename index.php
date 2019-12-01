@@ -1,5 +1,5 @@
-require_once "src/task.php";
-use taskforse\Task;
+/*require_once "src/task.php";
+use taskforse\Task;*/
 
 
 echo "hello";
