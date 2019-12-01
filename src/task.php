@@ -1,4 +1,5 @@
-
+<?
+namespace taskforse;
 class Task {
 	public const STATUS_NEW = 'new';
 	public const STATUS_PERFORM = 'performed';
@@ -34,8 +35,7 @@ class Task {
 		];
 	}
 }
-
-
+?>
 
 
 
