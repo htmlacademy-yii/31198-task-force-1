@@ -1,3 +1,5 @@
+<?
+
 namespace taskforse;
 
 class Task {
@@ -27,15 +29,15 @@ class Task {
 
 	public static function TaskActionList() {
 		return [
-			self::STATUS_NEW,
-			self::STATUS_PERFORM,
-			self::STATUS_DONE,
-			self::STATUS_CANCEL,
-			self::STATUS_FAIL			
+			self::ACTION_CREATE,
+			self::ACTION_CANCEL,
+			self::ACTION_RESPOND,
+			self::ACTION_ESTIMATE
 		];
 	}
 }
 
+?>
 
 
 
