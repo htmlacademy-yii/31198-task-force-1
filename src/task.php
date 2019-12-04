@@ -9,10 +9,11 @@ class Task {
 	public const STATUS_CANCEL = 'canceled';
 	public const STATUS_FAIL = 'failed';
 
-	public const ACTION_CREATE = 'create';
-	public const ACTION_CANCEL = 'cancel';
-	public const ACTION_RESPOND = 'respond';
-	public const ACTION_ESTIMATE = 'estimate';
+	public const ACTION_CREATE = 'create'; //создать
+	public const ACTION_CANCEL = 'cancel'; //отменить
+	public const ACTION_APPLY = 'apply'; //откликнуться
+	public const ACTION_EXECUTE = 'execute'; //выполнить
+	public const ACTION_REFUSE = 'refuse'; //отказаться
 
 	public const ROLE_CUSTOMER = 'customer';
 	public const ROLE_PERFORMER = 'performer';
@@ -31,8 +32,9 @@ class Task {
 		return [
 			self::ACTION_CREATE,
 			self::ACTION_CANCEL,
-			self::ACTION_RESPOND,
-			self::ACTION_ESTIMATE
+			self::ACTION_APPLY,
+			self::ACTION_EXECUTE, 
+			self::ACTION_REFUSE
 		];
 	}
 }
