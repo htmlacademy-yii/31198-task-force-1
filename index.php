@@ -1,8 +1,8 @@
 <?
 use taskforse\Task;
 /*
-echo TaskStatus::TaskStatusList();
-echo TaskStatus::TaskActionList();
+echo TaskStatus::taskStatusList();
+echo TaskStatus::taskActionList();
 */
 echo "hh";
 ?>

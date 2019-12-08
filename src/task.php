@@ -1,4 +1,4 @@
-<?
+<?php
 
 namespace taskforse;
 
@@ -18,7 +18,8 @@ class Task {
 	public const ROLE_CUSTOMER = 'customer';
 	public const ROLE_PERFORMER = 'performer';
 
-	public static function TaskStatusList() {
+	public static function taskStatusList():arrow 
+	{
 		return [
 			self::STATUS_NEW,
 			self::STATUS_PERFORM,
@@ -28,7 +29,8 @@ class Task {
 		];
 	}
 
-	public static function TaskActionList() {
+	public static function taskActionList():arrow 
+	{
 		return [
 			self::ACTION_CREATE,
 			self::ACTION_CANCEL,
@@ -38,9 +40,3 @@ class Task {
 		];
 	}
 }
-
-?>
-
-
-
-
