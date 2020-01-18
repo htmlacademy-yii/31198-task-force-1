@@ -1,7 +1,7 @@
 <?php
 
-namespace taskforse;
-
+//namespace taskforse;
+namespace HtmlAcademy;
 class Task {
 	public const STATUS_NEW = 'new';
 	public const STATUS_PERFORM = 'performed';

@@ -1,6 +1,7 @@
 <?
-include 'src/task.php';
-use taskforse\Task;
+use HtmlAcademy\Task as Task;
+require_once 'vendor/autoload.php';
+
 
 $list_status = Task::taskStatusList();
 $list_action = Task::taskActionList();
@@ -13,6 +14,7 @@ echo "<br> <br>";
 foreach($list_action as $item) {
     echo $item.'<br>';
 }
+
 
 ?>
 
