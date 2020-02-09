@@ -1,5 +1,5 @@
 <?
-require_once "src/task.php";
+require_once "vendor/autoload.php";
 use taskforse\Task;
 
 
