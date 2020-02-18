@@ -1,19 +1,12 @@
 <?
-include 'src/task.php';
-use taskforse\Task;
+require_once "vendor/autoload.php";
+use taskforse\Task2;
 
-$list_status = Task::taskStatusList();
-$list_action = Task::taskActionList();
 
-foreach($list_status as $item) {
-    echo $item.'<br>';
+echo "hello</br></br>";
+$arrList = Task2::TaskStatusList();
+foreach ($arrList as $item) {
+	echo $item;
+	echo "</br>";
 }
-echo "<br> <br>";
-
-foreach($list_action as $item) {
-    echo $item.'<br>';
-}
-
 ?>
-
-

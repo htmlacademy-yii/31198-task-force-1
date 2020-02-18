@@ -1,11 +1,11 @@
 <?
 namespace taskforse;
-class Task {
-	public const STATUS_NEW = 'new';
-	public const STATUS_PERFORM = 'performed';
-	public const STATUS_DONE = 'done';
-	public const STATUS_CANCEL = 'canceled';
-	public const STATUS_FAIL = 'failed';
+class Task2 {
+	public const STATUS_NEW = 'new2';
+	public const STATUS_PERFORM = 'performed2';
+	public const STATUS_DONE = 'done2';
+	public const STATUS_CANCEL = 'canceled2';
+	public const STATUS_FAIL = 'failed2';
 
 	public const ACTION_CANCEL = 'cancel'; //отменить
 	public const ACTION_RESPOND = 'respond'; //откликнуться
@@ -36,3 +36,7 @@ class Task {
 		];
 	}
 }
+?>
+
+
+
